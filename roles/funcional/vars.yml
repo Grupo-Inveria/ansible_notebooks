@@ -220,8 +220,8 @@ external_repos:
     repo_url: "https://dl.google.com/linux/chrome/deb/"
     keyring_path: "/usr/share/keyrings/google-chrome.gpg"
   kubectl:
-    gpg_url: "https://pkgs.k8s.io/core:/stable:/v1.31/deb/Release.key"
-    repo_url: "https://pkgs.k8s.io/core:/stable:/v1.31/deb/"
+    gpg_url: "https://pkgs.k8s.io/core:/stable:/v1.35/deb/Release.key"
+    repo_url: "https://pkgs.k8s.io/core:/stable:/v1.35/deb/"
     keyring_path: "/etc/apt/keyrings/kubernetes-apt-keyring.gpg"
   adhoccli:
     gpg_url: "https://apt.dev-adhoc.com/adhoc-devops.asc"
